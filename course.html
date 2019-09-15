@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses list</title>
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/course.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>School...</h3>
+                <strong>BS</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="">
+                    <a href="index.html" class="home">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="course.html">
+                        <i class="fas fa-briefcase"></i>
+                        Courses
+                    </a>
+                </li>
+                 <li>
+                    <a href="instructor.html">
+                        <i class="fas fa-image"></i>
+                        Instractors
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        Students
+                    </a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Pages
+
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Statictes</a>
+                        </li>
+                        <li>
+                            <a href="#">Activites</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="test">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- Page Content  -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Statictes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Activites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Settings</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid ">
+                <div class="page-header">
+                    <i class="fas fa-pencil-alt"></i>    
+                    <h1>Courses Settings</h1>
+                    <p>lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="form-container">
+                    <div class="section-title">
+                        <h3>Course Description</h3>
+                    </div>
+                    <div class="row con-row">
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Course Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Course Name">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Select Instructor</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Lab No.</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Lab ID">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="section-title">
+                        <h3>Course Duration</h3>
+                    </div>
+                    <div class="row con-row">
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Duration</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Course Duration">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Start Date</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter start date">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">End Date</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter End Date">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <button class="btn btn-info ">Add Course</button>
+                </div>
+
+                <div class="table-container">
+                    <div class="row section-title">
+                        <h3 class="">Courses List</h3>
+                        <div class="col-2 ml-auto filter">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        
+                    </div>
+                    <div class="row con-row">
+                        <table class="table table-hover table-responsive">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Course Name</th>
+                                <th scope="col">Instractor</th>
+                                <th scope="col">Course ID</th>
+                                <th scope="col">Duration</th>
+                                <th scope="col">Start Date</th>
+                                <th scope="col">End Date</th>
+                                <th scope="col">Settings</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Math</td>
+                                <td>MR.Ibrahim</td>
+                                <td>MSC301</td>
+                                <td>3-Month</td>
+                                <td>9/2019</td>
+                                <td>1/2020</td>
+                                <td>
+                                    <button class="btn btn-warning">Edit</button>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td|>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Math</td>
+                                <td>MR.Ibrahim</td>
+                                <td>MSC301</td>
+                                <td>3-Month</td>
+                                <td>9/2019</td>
+                                <td>1/2020</td>
+                                <td>
+                                    <button class="btn btn-warning">Edit</button>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td|>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Math</td>
+                                <td>MR.Ibrahim</td>
+                                <td>MSC301</td>
+                                <td>3-Month</td>
+                                <td>9/2019</td>
+                                <td>1/2020</td>
+                                <td>
+                                    <button class="btn btn-warning">Edit</button>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td|>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Math</td>
+                                <td>MR.Ibrahim</td>
+                                <td>MSC301</td>
+                                <td>3-Month</td>
+                                <td>9/2019</td>
+                                <td>1/2020</td>
+                                <td>
+                                    <button class="btn btn-warning">Edit</button>
+                                    <button class="btn btn-danger">Delete</button>
+                                </td|>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery.JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Popper.JS -->
+    <script src="js/popper.js"></script>
+    <!-- Bootsrap.JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

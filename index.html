@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>School...</h3>
+                <strong>BS</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="">
+                    <a href="index.html" class="home">
+                        <i class="fas fa-home"></i>
+                        Home 
+                    </a>
+                </li>
+                <li>
+                    <a href="course.html">
+                        <i class="fas fa-briefcase"></i>
+                        Courses
+                    </a>
+                </li>
+                 <li>
+                    <a href="instructor.html">
+                        <i class="fas fa-image"></i>
+                        Instractors
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        Students
+                    </a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Pages
+                        
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Statictes</a>
+                        </li>
+                        <li>
+                            <a href="#">Activites</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="test">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-justify"></i>                        
+                    </button>
+
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Statictes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Activites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Settings</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!--START PORFOLIO  -->
+            <div class="school-Portfolio">
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="card ">
+                            <h5 class="card-title">School Portfolio</h5>
+                            <div class="card-body">
+                                <div class="row cat-content text-center justify-content-center">
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="categories">
+                                            <i class="far fa-user rounded-circle"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Member Numbers</h5>
+                                            <h3>1.7K</h3>
+                                            <h6><a href="#"> More Description </a> </h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="categories">
+                                            <i class="far fa-lightbulb  rounded-circle info"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Instructors</h5>
+                                            <h3>200</h3>
+                                            <h6><a href="#"> More Description </a> </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="categories ">
+                                            <i class="fab fa-discourse rounded-circle success"></i>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Courses</h5>
+                                            <h3>1.7k</h3>
+                                            <h6><a href="#"> More Description </a> </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <button class="btn btn-md btn-info">View Complete Report</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END PORTFOLIO -->
+
+            <!--START SCHOOL MEMBER -->
+            <div class="table-section">
+                <div class="row">
+                    <h5 class="section-header">School Members</h5>
+                    <table class="table table-hover table-responsive">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Avatar</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Position</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Due Date</th>
+                                <th scope="col">Target Achievement</th>
+                                <th scope="col">Actions</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><img src="imgs/2.jpg"></td>
+                                <td><a href="#">Johnathan Phelan</td>
+                                <td>Manager</td>
+                                <td>
+                                    <div class="badge badge-pill badge-danger">Canceled</div>
+                                </td>
+                                <td>15/11</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%"
+                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> 80%</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-info">Edite</button>
+                                    <button class="btn btn-sm btn-danger">delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><img src="imgs/4.jpg"></td>
+                                <td><a href="#">Johnathan Phelan</td>
+                                <td>Teacher</td>
+                                <td>
+                                    <div class="badge badge-pill badge-info">On Hold</div>
+                                </td>
+                                <td>15/11</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-info">Edite</button>
+                                    <button class="btn btn-sm btn-danger">delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><img src="imgs/3.jpg"></td>
+                                <td><a href="#">Darrell Lowe</td>
+                                <td>HR</td>
+                                <td>
+                                    <div class="badge badge-pill badge-success">In Progress</div>
+                                </td>
+                                <td>15/11</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 65%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">65%</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-info">Edite</button>
+                                    <button class="btn btn-sm btn-danger">delete</button>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td><img src="imgs/4.jpg"></td>
+                                <td><a href="#">Johnathan Phelan</td>
+                                <td>Teacher</td>
+                                <td>
+                                    <div class="badge badge-pill badge-primary">Completed</div>
+                                </td>
+                                <td>15/11</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 55%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-info">Edite</button>
+                                    <button class="btn btn-sm btn-danger">delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row justify-content-center">
+                    <button class="btn btn-md btn-info">View All Members</button>
+                </div>
+            </div>
+            <!--END SCHOLL MEMBER SECTION -->
+
+
+            <!-- TIME LINE SECTION -->
+            <div class="timeline-section">
+                <div class="row">
+                     <div class="col-lg-4 col-sm-12">
+                        <div class="card " style="height: 382px;" >
+                            <div class="card-body">
+
+                                <h5 class="card-title">chart</h5>
+                                <div class="ct-chart ct-perfect-fourth"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Whats New section-->
+                    <div class="col-lg-4 col-sm-12  ">
+                            <div class="card  ">
+                                <div class="card-header ">
+                                    What's New ?
+                                </div>
+                                <div class="card-body timeline scroll ">
+                                    <div class="w-container ">
+                                        <div class="w-content ">
+                                            <i class="fas fa-check circled redsolid"></i>
+                                            <h5 > All Hands Meeting</h5>
+                                            <h6>Lorem ipsum dolor sit ipsum amet, More</h6>
+                                        </div>
+                                    </div>
+                                    <div class="w-container ">
+                                        <div class="w-content">
+                                                <i class="fas fa-check circled greensolid "></i>
+                                                <h5 > All Hands Meeting</h5>
+                                            <h6 class="tl-1"> Build the production release
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="w-container ">
+                                        <div class="w-content">
+                                                <i class="fas fa-check circled yellowsolid"></i>
+                                                <h5 > All Hands Meeting</h5>
+                                            <h6> Something not important <span class="new">New</span>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="w-container ">
+                                        <div class="w-content">
+                                                <i class="fas fa-check circled bluesolid"></i>
+                                                <h5 > All Hands Meeting</h5>
+                                            <h6 class="tl-1"> With supporting text below as a natural lead-in to additional
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center card-btn">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="col-lg-4 col-sm-12  ">
+                        <div class="card  ">
+                            <div class="card-header ">
+                                Timeline Area
+                            </div>
+                            <div class="card-body timeline scroll ">
+                                <div class="t-container ">
+                                    <div class="t-content ">
+                                        <h5 > All Hands Meeting</h5>
+                                        <h6>Lorem ipsum dolor sit ipsum amet, More</h6>
+                                    </div>
+                                </div>
+                                <div class="t-container blue">
+                                    <div class="t-content">
+                                            <h5 > All Hands Meeting</h5>
+                                        <h6 class="tl-1"> Build the production release
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="t-container yellow">
+                                    <div class="t-content">
+                                            <h5 > All Hands Meeting</h5>
+                                        <h6> Something not important <span class="new">New</span>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="t-container green">
+                                    <div class="t-content">
+                                            <h5 > All Hands Meeting</h5>
+                                        <h6 class="tl-1"> With supporting text below as a natural lead-in to additional
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="t-container">
+                                    <div class="t-content">
+                                            <h5 > All Hands Meeting</h5>
+                                        <h6 class="tl-1"> All Hands Meeting</h6>
+                                    </div>
+                                </div>
+                                <div class="t-container blue">
+                                    <div class="t-content">
+                                            <h5 > All Hands Meeting</h5>
+                                        <h6 class="tl-1"> With supporting text below as a natural lead-in to additional</h6>
+                                    </div>
+                                </div>
+                                <div class="t-container main">
+                                    <div class="t-content">
+                                            <h5 > All Hands Meeting</h5>
+                                        <h6 class="tl-1"> Yet another one, at 15:00 PM <span class="new">New</span>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center card-btn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END TIMELINE sECTION-->
+                
+        </div>
+    </div>
+
+    <!-- jQuery.JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Popper.JS -->
+    <script src="js/popper.js"></script>
+    <!-- Bootsrap.JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <!-- Custom JS -->
+      <script src="js/main.js"></script>
+ 
+</body>
+
+</html>

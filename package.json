@@ -1,0 +1,21 @@
+{
+  "name": "school_management_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahmoud-Noby",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "chartist": "^0.11.4",
+    "jquery": "^3.4.1",
+    "sass": "^1.22.12"
+  }
+}
