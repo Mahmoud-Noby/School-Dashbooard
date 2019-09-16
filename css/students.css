@@ -3,7 +3,7 @@
 ----------------------------------------------------- */
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,12 +36,12 @@ a:focus {
   border-radius: 0;
   margin-bottom: 40px;
   -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-btn {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: none !important;
   border: none;
 }
@@ -59,15 +59,15 @@ span {
 }
 
 /* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
+      SIDEBAR STYLE
+  ----------------------------------------------------- */
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 #sidebar {
@@ -162,7 +162,7 @@ a[data-toggle="collapse"] {
   top: 50%;
   right: 20px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 ul ul a {
@@ -172,8 +172,8 @@ ul ul a {
 }
 
 /* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
+      CONTENT STYLE
+  ----------------------------------------------------- */
 #content {
   width: 100%;
   min-height: 100vh;
@@ -182,8 +182,8 @@ ul ul a {
 }
 
 /* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
+      MEDIAQUERIES
+  ----------------------------------------------------- */
 @media (max-width: 768px) {
   #sidebar {
     min-width: 80px;
@@ -248,7 +248,7 @@ body {
   float: left;
   margin: 0px 20px;
   -webkit-box-shadow: 3px 3px 3px #cccccc;
-          box-shadow: 3px 3px 3px #cccccc;
+  box-shadow: 3px 3px 3px #cccccc;
 }
 
 .page-header h1 {
@@ -266,8 +266,8 @@ body {
 }
 
 /****************************************************************************************************************
-   FORMS  SECTION 
-*****************************************************************************************************************/
+     FORMS  SECTION 
+  *****************************************************************************************************************/
 .con-row {
   padding: 10px 0;
 }
@@ -278,7 +278,7 @@ body {
   background: #fff;
   margin: auto;
   -webkit-box-shadow: 4px 4px 2px #d0c9c9;
-          box-shadow: 4px 4px 2px #d0c9c9;
+  box-shadow: 4px 4px 2px #d0c9c9;
   border-radius: 20px;
   margin-bottom: 50px;
 }
@@ -293,15 +293,15 @@ body {
 }
 
 /****************************************************************************************************************
-   TABLE  SECTION 
-*****************************************************************************************************************/
+     TABLE  SECTION 
+  *****************************************************************************************************************/
 .table-container {
   width: 98%;
   padding: 20px;
   background: #fff;
   margin: auto;
   -webkit-box-shadow: 4px 4px 2px #d0c9c9;
-          box-shadow: 4px 4px 2px #d0c9c9;
+  box-shadow: 4px 4px 2px #d0c9c9;
   border-radius: 20px;
   margin-bottom: 50px;
 }
@@ -328,4 +328,4 @@ body {
   color: #333;
   opacity: 0.8;
 }
-/*# sourceMappingURL=course.css.map */
+/*# sourceMappingURL=students.css.map */
