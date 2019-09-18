@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Instractors list</title>
+    <title>Classes list</title>
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="css/instructor.css">
+    <link rel="stylesheet" href="css/classes.css">
+
 </head>
 
 <body>
@@ -107,56 +109,29 @@
             <div class="container-fluid ">
                 <div class="page-header">
                     <i class="fas fa-pencil-alt"></i>    
-                    <h1>Academic Staff</h1>
+                    <h1>Classes</h1>
                     <p>lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                 </div>
                 <div class="form-container">
                     <div class="section-title">
-                        <h3>Instractors Information</h3>
+                        <h3>Class Information</h3>
                     </div>
                     <div class="row con-row">
-                        <div class="col-3">
+                        <div class="col-6">
                             <form>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Instructor Name</label>
+                                    <label for="exampleInputEmail1">Class Name</label>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Enstructor Name">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                                 </div>
                             </form>
                         </div>
-                        <div class="col-3">
+                        <div class="col-6">
                             <form>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Instructor ID</label>
+                                    <label for="exampleInputEmail1">Class ID</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter ID">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-3">
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Dept Name</label>
-                                    <select class="form-control">
-                                        <option></option>
-                                        <option>MAth</option>
-                                        <option>Science</option>
-                                    </select>
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email.</small>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-3">
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Type</label>
-                                    <select class="form-control">
-                                        <option>..</option>
-                                        <option>Teacher</option>
-                                        <option>Teacher Asistant</option>
-                                        <option>Dept Manager</option>
-                                    </select>
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email.</small>
                                 </div>
                             </form>
                         </div>
@@ -168,37 +143,52 @@
                         <div class="col-4">
                             <form>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Telephone NO</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone NO">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <label for="exampleInputEmail1">Time</label>
+                                    <select class="form-control">
+                                        <option></option>
+                                        <option>Fall</option>
+                                        <option>Spring</option>
+                                        <option>Summer</option>
+                                    </select>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email.</small>
                                 </div>
                             </form>
                         </div>
                         <div class="col-4">
                             <form>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Email</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Instructor Email">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <label for="exampleInputEmail1">Instructor Name</label>
+                                    <select class="form-control">
+                                        <option></option>
+                                        <option>Ahmed Ali</option>
+                                        <option>Mhamed Farse</option>
+                                        <option>Arsllan Noby</option>
+                                    </select>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email.</small>
                                 </div>
                             </form>
                         </div>
                         <div class="col-4">
                             <form>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Works Day</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Available Days">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <label for="exampleInputEmail1">Course ID</label>
+                                    <select class="form-control">
+                                        <option> </option>
+                                        <option>CS_101</option>
+                                        <option>CS_102</option>
+                                        <option>CS_103</option>
+                                    </select>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email.</small>
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <button class="btn btn-info ">Add Instructor</button>
+                    <button class="btn btn-info ">Add Class</button>
                 </div>
 
                 <div class="table-container">
                     <div class="row section-title">
-                        <h3 class="">Instructors List</h3>
+                        <h3 class="">Classes List</h3>
                         <div class="col-2 ml-auto filter">
                             <input type="text" class="form-control" placeholder="Search">
                         </div>
@@ -209,63 +199,59 @@
                             <thead>
                               <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Inst Name</th>
+                                <th scope="col">Class Name</th>
                                 <th scope="col">ID</th>
-                                <th scope="col">Deparment</th>
-                                <th scope="col">Phone</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Available</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Inst Name</th>
+                                <th scope="col">Course ID</th>
                                 <th scope="col">Settings</th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
                                 <th scope="row">1</th>
-                                <td>Ahmed Ali</td>
+                                <td>Corse_name</td>
                                 <td>654CA</td>
-                                <td>Sciences</td>
-                                <td>000xxxx</td>
-                                <td>mo@ex.com</td>
-                                <td>3-days</td>
+                                <td>Spring</td>
+                                <td>Arsllan Noby</td>
+                                <td>CS_101</td>
                                 <td>
                                     <button class="btn btn-warning">Edit</button>
                                     <button class="btn btn-danger">Delete</button>
                                 </td|>
                               </tr>
+                              <tr>
                               <tr>
                                 <th scope="row">2</th>
-                                <td>Ahmed Ali</td>
+                                <td>Corse_name</td>
                                 <td>654CA</td>
-                                <td>Sciences</td>
-                                <td>000xxxx</td>
-                                <td>mo@ex.com</td>
-                                <td>3-days</td>
+                                <td>Spring</td>
+                                <td>Arsllan Noby</td>
+                                <td>CS_101</td>
                                 <td>
                                     <button class="btn btn-warning">Edit</button>
                                     <button class="btn btn-danger">Delete</button>
                                 </td|>
                               </tr>
-                              <tr>
+                                <tr>
                                 <th scope="row">3</th>
-                                <td>Ahmed Ali</td>
+                                <td>Corse_name</td>
                                 <td>654CA</td>
-                                <td>Sciences</td>
-                                <td>000xxxx</td>
-                                <td>mo@ex.com</td>
-                                <td>3-days</td>
+                                <td>Spring</td>
+                                <td>Arsllan Noby</td>
+                                <td>CS_101</td>
                                 <td>
                                     <button class="btn btn-warning">Edit</button>
                                     <button class="btn btn-danger">Delete</button>
                                 </td|>
                               </tr>
-                              <tr>
+                                <tr>
                                 <th scope="row">4</th>
-                                <td>Ahmed Ali</td>
+                                <td>Corse_name</td>
                                 <td>654CA</td>
-                                <td>Sciences</td>
-                                <td>000xxxx</td>
-                                <td>mo@ex.com</td>
-                                <td>3-days</td>
+                                <td>Spring</td>
+                                <td>Arsllan Noby</td>
+                                <td>CS_101</td>
                                 <td>
                                     <button class="btn btn-warning">Edit</button>
                                     <button class="btn btn-danger">Delete</button>
