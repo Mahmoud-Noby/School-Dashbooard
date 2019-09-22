@@ -113,7 +113,9 @@ span {
 #sidebar.active ul ul a {
   padding: 20px  20px 20px  0px !important;
 }
-
+a.dropdown-toggle{
+  margin-bottom: 0px !important;
+}
 #sidebar.active .dropdown-toggle::after {
   top: auto;
   bottom: 10px;
@@ -122,9 +124,15 @@ span {
   -ms-transform: translateX(50%);
   transform: translateX(50%);
 }
+#sidebar.active ul li a:hover {
+  color: white;
+  background-color: #8ca1b5;
+  margin-left: 0px !important;
+  padding-left: 15px;
+}
 
 #sidebar .sidebar-header {
-  padding: 20px;
+  padding: 13.5px 10px;
   background: $mainColor;
 }
 
@@ -144,6 +152,9 @@ span {
 
 #sidebar ul li a:hover {
   color: white;
+  background-color: #8ca1b5;
+  padding-left: 15px;
+  margin-left: 0px !important;
 }
 
 #sidebar ul li a i {
@@ -153,7 +164,7 @@ span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: $mainColor;
+  padding-left: 40px;
 }
 
 a[data-toggle="collapse"] {
@@ -168,10 +179,14 @@ a[data-toggle="collapse"] {
   transform: translateY(-50%);
 }
 
+
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background-color: $mainColor;
+  margin-left: 0px !important;
+  background-color: #40425D;
+  margin-top: 0 !important;
+  margin-bottom: 0px !important;
 }
 
 
